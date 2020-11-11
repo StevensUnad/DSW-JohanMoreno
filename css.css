@@ -736,17 +736,17 @@ ul {
 }
 
 .content {
-  /*background-color: red;
+  /*background-color: lightgrey;
   box-shadow: inset 0 0 2px hsla(0,0%,0%,.2),
               0 3px 1px hsla(0,0%,100%,.75),
               0 -1px 1px 2px hsla(0,0%,0%,.1);*/
   height: 18.75em;
-  right: 20%;
+  right: 40%;
   margin: 9.875em -13em;
   padding: .5em;
   position: absolute;
   top: 10%;
-  width: 35em;
+  width: 25em;
   color: #000;
   font-size: large;
 }
@@ -769,7 +769,7 @@ ul {
   text-align: justify; 
   text-indent: 0.5em;
   height: 60px;
-  left: 55%;
+  left: 75%;
   margin: -9.9em -19em;
   padding: .5em;
   position: absolute;
@@ -787,11 +787,11 @@ ul {
   margin: -9.875em -13em;
   padding: .5em;
   position: absolute;
-  top: 50%;
+  top: 40%;
   font-weight:bold;
 }
 .parrafo_con_1{
-  width: 500px;
+  width: 450px;
   height: 18.75em;
   margin: 3.5em -0.5em;
   padding: .5em;
@@ -814,7 +814,7 @@ ul {
   }
 
 .parrafo_con_2{
-  width: 500px;
+  width: 450px;
   text-align: justify; 
   text-indent: 0.5em;
   line-height: 1em;  
@@ -842,7 +842,7 @@ ul {
  }
 
  .parrafo_arg_1{
-  width: 500px;
+  width: 450px;
   height: 18.75em;
   margin: 0.5em -0.5em;
   padding: .5em;
@@ -851,7 +851,7 @@ ul {
  }
 
   .parrafo_arg_2{
-    width: 500px;
+    width: 450px;
     height: 18.75em;
     left: -55%;
     margin: 0em -0.5em;
@@ -862,18 +862,19 @@ ul {
   }
 
 .parrafo1 {  
-  /*background-color: lightgrey;*/
-  width: 500px;
+  
+  width: 450px;
   height: 20px;
   padding: 25px;
   margin: 15px;
   text-align: justify; 
   text-indent: 0.5em;
   line-height: 1em;
+  left: -55%;
 }
 .parrafo2 {  
   /*background-color: lightgrey;*/
-  width: 500px;
+  width: 450px;
   height: 60px;
   padding: 25px;
   margin: 15px;
@@ -1050,3 +1051,13 @@ ul {
   justify-content: center;
 }
 
+#redsocial{  
+  float: right;
+  padding: 5px;
+  width: 230px;
+  box-sizing: border-box;
+  margin-top: -620px;
+  border-color: black;
+  border: 1em solid transparent;
+
+}
