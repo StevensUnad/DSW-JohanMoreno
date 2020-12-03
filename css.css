@@ -36,9 +36,16 @@ body {
 a {
     text-decoration: none;
     background-color:transparent;
-    color: white;
-    
+    color: white;    
   }
+
+  .parrafo_auto_1 > a {
+      color: black;    
+    }
+    .parrafo_auto_1 > :hover {
+      color: #1680f1;    
+    }
+    
   a:hover {
     font-size:17px;    
   }
